@@ -1,0 +1,385 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+a{
+    text-decoration:none;
+    font-size:22px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color: #000;
+}
+a:hover{
+    color: #00a4ff;
+}
+body{
+    width: 1236px;
+}
+.head{
+    width: 1219px;
+    height: 88px;
+    padding:0 150px;
+    background-color: #7f7f7f;
+}
+.head>a{
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+}
+.head>ul{
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    list-style: none;
+}
+.head>ul>li{
+    box-sizing: border-box;
+    position: relative;
+    margin: 22px 10px 10px;
+    float: left;
+}
+li>a
+{
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 0 10px;
+    border-bottom: solid 2px #7f7f7f;
+}
+.head>ul>li>a{
+    color: #00a4ff;
+}
+.head>ul>li>a:hover{
+    color:#fff;
+    border-bottom: solid 2px #fff;
+}
+.head>form{
+    box-sizing: border-box;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    float: left;
+    width:300px;
+    padding:0 0;
+    margin:0 0;
+}
+.head>form>input[type=text]{
+    width: 210px;
+    height: 40px;
+    padding: 12px 20px;
+    margin:0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+}
+.head>form>input[type=submit]{
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+    padding:0;
+    margin:0;
+    border: 1px solid #00a4ff;
+    float: left;
+    background-color: #00a4ff;
+    background-image: url(images/fa-search.png);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.head>button{
+    box-sizing: border-box;
+    position: relative;
+    top: 18px;
+    left: 100px;
+    float: left;
+}
+.neck{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1519px;
+    height: 681px;
+}
+.neck>a>img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 681px;
+    width: 1519px;
+}
+.chest{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1519px;
+    margin: 0 auto;
+    height:405px;
+    background-color: #f0f0f0;
+}
+.left{
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 100px;
+    float: left;
+    width: 500px;
+    height: 401px;
+    background-color: #ddd;
+    border: solid 2px #ccc;
+}
+.left>.title{
+    font-size:36px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color: #00a4ff;
+}
+.left>p{
+    font-size:22px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+}
+.chest>img{
+    box-sizing: border-box;
+    position: relative;
+    left: 210px;
+    float: left;
+    width: 720px;
+    height: 405px;
+
+}
+.stomach{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1519px;
+    padding: 0 0 0 0;
+    height: 244px;
+    background-color: #f0f0f0;
+}
+.stomach>div{
+    position: relative;
+    float: left;
+    width: 500px;
+    height:240px;
+    margin: 0 100px;
+    background-color:#ddd;
+    border: solid 2px #ccc;
+}
+.stomach>div>.title{
+    box-sizing: border-box;
+    position: relative;
+    font-size:36px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color: #00a4ff;
+}
+.stomach>div>a{
+    box-sizing: border-box;
+    position: relative; 
+}
+.stomach>div>a>p{
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+}
+.stomach>div>a>.r{
+    box-sizing: border-box;
+    position: relative;
+    right:0;
+    top: 0;
+    float: right;
+}
+.stomach>.right{
+    float:right;
+    top: 0;
+    right: -12px;
+}
+.back{
+    box-sizing: border-box;
+    position: relative;
+    height: 300px;
+    width: 1519px;
+    padding: 0 100px 0 105px;
+    background-color: #f1f1f1;
+}
+.back>a{
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 230px;
+    margin: 0 11px;
+    background-color: #fff;
+}
+.back>a>img{
+    box-sizing: border-box;
+    position: relative;
+    width: 240px;
+    height: 135px;
+}
+.back>a>p{
+    box-sizing: border-box;
+    position: relative;
+    height: 36px;
+    font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:#000;
+}
+.back>a>.A{
+    float: left;
+    color: #ff7b2d;
+}
+.back>a>.B{
+    color:#ff2222;
+    float: right;
+    margin-right: 15px;
+}
+.back>div{
+    width: 1519px;
+    height: 60px;
+}
+.back>div>p{
+    font-size:44px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:#00a4ff;
+}
+.hip{
+    position: relative;
+    width: 1519px;
+    height: 50px;
+    background-color: #fff;
+}
+.hip>p{
+    box-sizing: border-box;
+    position: relative;
+    top: 12px;
+    width: 500px;
+    margin: auto auto;
+    font-size: 16px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:#000;
+}
+/*从这里起代码是抄的*/
+div>input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #00a4ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
